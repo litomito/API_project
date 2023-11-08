@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 10px;
+    width: 99vw;
+    height: 90vh;
+    background-color: rgb(44, 44, 44);
+    color: wheat;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#flex {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40vh;
+    gap: 10em;
+    width: 90vw;
+}
+
+#sl {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    width: 20vw;
+    height: 30vh;
+    background-color: wheat;
+    color: black;
+    padding: 20px;
+}
+
+#weather {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    width: 20vw;
+    height: 30vh;
+    background-color: wheat;
+    color: black;
+    padding: 20px;
+}
+
+#bestseller {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    width: 20vw;
+    height: 30vh;
+    background-color: wheat;
+    color: black;
+    padding: 20px;
+}
+
+#calender {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    width: 20vw;
+    height: 30vh;
+    background-color: wheat;
+    color: black;
+    padding: 20px;
+}
+
+button {
+    margin: 0 15px 0 15px;
+    height: 3vh;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
